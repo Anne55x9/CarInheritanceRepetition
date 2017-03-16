@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarInheritanceRepetition
 {
-    public class Car
+    public abstract class Car
     {
         /// <summary>
         /// Properties of the public class car.
@@ -68,7 +68,7 @@ namespace CarInheritanceRepetition
         /// </summary>
         /// 
 
-        public int SemiAnnualTax()
+        public virtual int SemiAnnualTax()
         {
             return 1000;
         }
