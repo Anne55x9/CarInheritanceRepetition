@@ -55,5 +55,12 @@ namespace CarInheritanceRepetition
         }
 
 
+        //Override af Tostring metode.
+
+        public override string ToString()
+        {
+            return $"Car brand: {Brand}, price in kr: {PriceOfCar}, year of purchase: {YearOfPurchase}, Km per liter: {KmLiter}, particle filter: {Filter}";
+        }
+
     }
 }

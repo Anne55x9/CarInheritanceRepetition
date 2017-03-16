@@ -40,25 +40,27 @@ namespace CarInheritanceRepetition
 
         public int RegistrationPayment()
         {
+            RegPay = 0;
+
             if (YearOfPurchase <= 2014)
             {
                 if (PriceOfCar <= 80500)
                 {
-                    RegPay = PriceOfCar * (105 / 100);
+                    RegPay = PriceOfCar * 105/100;
                 }
                 else
                 {
-                    RegPay = (80500 * (105 / 100)) + ((PriceOfCar - 80500) * (180/100));
+                    RegPay = (80500 * 105 / 100) + ((PriceOfCar - 80500) * 180/100);
                 }
             }
             else
                 if (PriceOfCar <= 81700)
                 {
-                RegPay = PriceOfCar * (105 / 100);
+                RegPay = PriceOfCar * 105 / 100;
                 }
                 else
                 {
-                    RegPay = (81700 * (105 / 100)) + ((PriceOfCar - 81700) * (180 / 100));
+                    RegPay = (81700 * 105 / 100) + ((PriceOfCar - 81700) * 180 / 100);
                 }
            return RegPay;
         }
