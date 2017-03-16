@@ -13,8 +13,8 @@ namespace CarInheritanceRepetition
         /// </summary>
         /// 
         public string Brand { get; set; }
-        public int PriceOfCar { get; set; }
-        public int YearOfPurchase { get; set; }
+        public int PriceOfCar { get; private set; }
+        public int YearOfPurchase { get; private set; }
         public string RegistrationNo { get; set; }
         public int KmLiter { get; set; }
 
