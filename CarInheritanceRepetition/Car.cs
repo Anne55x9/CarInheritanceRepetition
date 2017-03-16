@@ -26,7 +26,11 @@ namespace CarInheritanceRepetition
 
         public Car(string brand, int priceOfCar, int yearOfPurchase, string registrationNo, int kmLiter)
         {
-
+            this.Brand = brand;
+            this.PriceOfCar = priceOfCar;
+            this.YearOfPurchase = yearOfPurchase;
+            this.RegistrationNo = registrationNo;
+            this.KmLiter = kmLiter; 
         }
         
         /// <summary>
